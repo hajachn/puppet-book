@@ -1,10 +1,10 @@
 $attributes = {
-	'owner'	=> 'vagrant',
-	'group'	=> 'vagrant',
-	'mode'	=> 0644,
+     'owner' => 'ubuntu',
+     'group' => 'ubuntu',
+     'mode'  => '0644',
+}
+   file { '/tmp/test':
+     ensure => present,
+     *      => $attributes,
 }
 
-file { '/tmp/new_file':
-	ensure	=> present,
-	*	=> $attributes,
-}
