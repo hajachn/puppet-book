@@ -1,0 +1,3 @@
+user { 'haja':
+	ensure => absent,
+}
