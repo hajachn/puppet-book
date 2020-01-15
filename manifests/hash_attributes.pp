@@ -1,6 +1,6 @@
 $attributes = {
-     'owner' => 'ubuntu',
-     'group' => 'ubuntu',
+     'owner' => 'vagrant',
+     'group' => 'vagrant',
      'mode'  => '0644',
 }
    file { '/tmp/test':
